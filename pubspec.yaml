@@ -37,6 +37,9 @@ dependencies:
   firebase_core: ^1.12.0
   cloud_firestore: ^3.1.8
   firebase_auth: ^3.3.7
+  get: ^4.6.1
+  pin_code_fields: any
+  fluttertoast: ^8.0.9
 
 dev_dependencies:
   flutter_test:
