@@ -1,9 +1,8 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:zshop/authentication/login_screen/login_screen_view.dart';
 import 'package:get/get.dart';
-import 'package:zshop/home.dart';
-import 'package:zshop/home_screen/home_screen_view.dart';
+import 'package:zshop/authentication/authentication.dart';
+
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
@@ -15,7 +14,7 @@ await Firebase.initializeApp();
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  // This widget is the root of your application.
+  // This widget is the root of your application. 8.38
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
@@ -32,8 +31,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-    //  home: LoginScreen(),
-    home: HomeScreenView(),
+    home: Authentication(),
     );
   }
 }

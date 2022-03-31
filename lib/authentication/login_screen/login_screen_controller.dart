@@ -2,9 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 import 'package:zshop/const/const.dart';
-import 'package:zshop/home.dart';
 import 'package:zshop/home_screen/home_screen_view.dart';
-
 import '../otp_verification_screen/otp__screen_view.dart';
 
 
